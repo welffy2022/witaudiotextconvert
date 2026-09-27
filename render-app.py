@@ -16,7 +16,7 @@ VOICE_MAP = {
     'English Female': 'en-US-JennyNeural',
     'English Male':   'en-US-GuyNeural',
 }
-MAX_TEXT_LENGTH = 5000
+MAX_TEXT_LENGTH = 10000
 
 @app.route('/health', methods=['GET'])
 def health():
